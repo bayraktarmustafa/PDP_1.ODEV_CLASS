@@ -1,6 +1,10 @@
 /**
  * Araba sınıfı, araba nesnelerini temsil eder.
  */
+
+//Araba
+
+//Sınıfı
 public class Araba {
 
     private String marka;
