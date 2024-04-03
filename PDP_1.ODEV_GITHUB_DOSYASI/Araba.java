@@ -18,7 +18,7 @@ public class Araba {
         this.model = model;
         this.yil = yil;
     }
-
+// Markayı alır
     /**
      * Arabanın markasını döndüren method.
      * @return arabanın markası
@@ -26,7 +26,7 @@ public class Araba {
     public String getMarka() {
         return marka;
     }
-
+// Modeli alır
     /**
      * Arabanın modelini döndüren method.
      * @return arabanın modeli
@@ -43,3 +43,9 @@ public class Araba {
         return yil;
     }
 }
+/**
+ * Araba sınıfı, bir arabanın özelliklerini ve davranışlarını temsil eder.
+ */
+ /**
+     * Arabanın çalıştığını simüle eder.
+     */
