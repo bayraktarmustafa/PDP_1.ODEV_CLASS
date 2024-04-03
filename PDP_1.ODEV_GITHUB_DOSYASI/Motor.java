@@ -1,34 +1,39 @@
 /**
- * Motor sınıfı, motor nesnelerini temsil eder.
+ * Motor sınıfı, araçların motor özelliklerini temsil eder.
  */
 public class Motor {
-
-    private String marka;
-    private double beygirGucu;
+    private int beygirGucu;
+    private String yakitTuru;
 
     /**
-     * Motor sınıfı için kurucu method.
-     * @param marka motorun markası
-     * @param beygirGucu motorun beygir gücü
+     * Motor sınıfının kurucu metodu.
+     * @param beygirGucu Motorun beygir gücü.
+     * @param yakitTuru Motorun kullandığı yakıt türü.
      */
-    public Motor(String marka, double beygirGucu) {
-        this.marka = marka;
+    public Motor(int beygirGucu, String yakitTuru) {
         this.beygirGucu = beygirGucu;
+        this.yakitTuru = yakitTuru;
     }
 
     /**
-     * Motorun markasını döndüren method.
-     * @return motorun markası
+     * Motorun beygir gücünü getirir.
+     * @return Motorun beygir gücü.
      */
-    public String getMarka() {
-        return marka;
-    }
-
-    /**
-     * Motorun beygir gücünü döndüren method.
-     * @return motorun beygir gücü
-     */
-    public double getBeygirGucu() {
+    public int getBeygirGucu() {
         return beygirGucu;
     }
+
+    /**
+     * Motorun kullandığı yakıt türünü getirir.
+     * @return Motorun yakıt türü.
+     */
+    public String getYakitTuru() {
+        return yakitTuru;
+    }
+
+    // Motorun çalıştığını gösteren metod
+    public void calis() {
+        System.out.println("Motor çalıştı.");
+    }
 }
+
