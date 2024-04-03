@@ -1,6 +1,8 @@
 /**
  * Gemi sınıfı, gemi nesnelerini temsil eder.
  */
+
+//Parametreler tanımlanır
 public class Gemi {
 
     private String isim;
@@ -27,6 +29,8 @@ public class Gemi {
         return isim;
     }
 
+    //İsim alınır
+
     /**
      * Geminin uzunluğunu döndüren method.
      * @return geminin uzunluğu
@@ -34,6 +38,7 @@ public class Gemi {
     public double getUzunluk() {
         return uzunluk;
     }
+    //Uzunluk alınır
 
     /**
      * Geminin yolcu kapasitesini döndüren method.
