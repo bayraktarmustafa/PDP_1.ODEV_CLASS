@@ -32,8 +32,6 @@ public class Motor {
     }
 
     // Motorun çalıştığını gösteren metod
-    public void calis() {
-        System.out.println("Motor çalıştı.");
-    }
+   
 }
 
